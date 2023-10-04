@@ -19,7 +19,7 @@ const {
 const{
   adminLogin
 }=require("../controllers/user-controllers")
-router.post('/admin/login', adminLogin);
+router.post('/users/login', adminLogin);
 
 router.get('/getAllEmail', getAllEmails);
 router.post('/addEmail', addEmail);
